@@ -1,0 +1,30 @@
+// EndPoints
+$xlg: 1920px;
+$lg: 1650px;
+$md: 1280px;
+$sm: 768px;
+$xs: 500px;
+
+@mixin respond-to($endpoint) {
+  @if ($endpoint == xlg) {
+    @media screen and (max-width: $xlg) {
+      @content;
+    }
+  } @else if ($endpoint == lg) {
+    @media screen and (max-width: $lg) {
+      @content;
+    }
+  } @else if ($endpoint == md) {
+    @media screen and (max-width: $md) {
+      @content;
+    }
+  } @else if ($endpoint == sm) {
+    @media screen and (max-width: $sm) {
+      @content;
+    }
+  } @else if ($endpoint == xs) {
+    @media screen and (max-width: $xs) {
+      @content;
+    }
+  }
+}

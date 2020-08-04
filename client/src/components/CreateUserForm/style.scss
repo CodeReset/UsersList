@@ -1,0 +1,30 @@
+.form_control_input_creater {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: "Roboto-Regular";
+  font-size: 17px;
+  background-color: #fff;
+  border: none;
+  margin-top: 18px;
+  height: 60px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form_control_button_creater {
+  display: block;
+  width: 200px;
+  height: 50px;
+  max-width: 100%;
+  margin: 30px auto 0 auto;
+  border: none;
+  border-radius: 30px;
+  background: none;
+  border: 1px solid #24a8ed;
+  color: #24a8ed;
+  font-family: "Roboto-Bold";
+  font-size: 17px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}

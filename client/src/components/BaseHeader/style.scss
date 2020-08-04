@@ -1,0 +1,26 @@
+.header {
+  padding: 20px 0px;
+  background: #fff;
+
+  max-width: 100%;
+  &_content {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_navigation {
+    width: 200px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.header_navigation a {
+  font-family: "Roboto-Regular";
+  text-decoration: none;
+  color: #333;
+}
